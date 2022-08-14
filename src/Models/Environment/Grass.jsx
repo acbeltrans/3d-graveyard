@@ -10,3 +10,4 @@ export const Grass = (props) => {
     </group>
   )
 }
+

@@ -5,14 +5,20 @@ import { Suspense } from 'react';
 import { Scenery } from './Scenery';
 
 
+
+
 createRoot(document.getElementById('root')).render(
   <div style={{ width: '97.6', height: '97.6vh' }}>
   <Canvas
     dpr={[1, 1.5]}
-    camera={{ position: [0, 0, -10], fov: 35 }}
+    camera={{ position: [0, 5, -18], fov: 45 }}
+    style={{ background: "#171717" }}
   >
     <ambientLight intensity={0.5} />
-    <pointLight position={[10, 10, 10]} />
+    <pointLight position={[-3, 0.3, 4]} />
+    <pointLight position={[2, 0.3, 2]} />
+    
+    
     
     <Suspense fallback={null}>
       <OrbitControls />

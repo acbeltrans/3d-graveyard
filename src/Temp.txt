@@ -1,0 +1,9 @@
+            {[...Array(smallSize)].map((e, s) =>{
+                small+=1;
+                return (
+                    <>
+                        <Fence key={v4()} position={[-10,0,small]} rotation={[0,4.7,0]} />
+                        <Fence key={v4()} position={[10.89,0,small]} rotation={[0,4.7,0]} />
+                    </>  
+                )
+            })}
