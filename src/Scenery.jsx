@@ -1,23 +1,24 @@
 import { Floor } from "./Scenes/Floor"
-import { Zombie } from "./Models/Characters/Zombie";
-import { RoadPath } from "./Scenes//RoadPath";
-import { Lightpost } from "./Models/Environment/Lightpost";
-import { SingleLightpost } from "./Models/Environment/SingleLightpost";
 import { TheFence } from "./Scenes/TheFence";
+import { RoadPath } from "./Scenes//RoadPath";
+import { Doorway } from "./Models/Gravestones/Doorway";
+import { Center } from "./Scenes/Center";
+import { TheGravestones } from "./Scenes/TheGravestones";
+import { Forest } from "./Scenes/Forest";
+import { Skeleton } from "./Models/Characters/Skeleton";
+
 
 export const Scenery = () => {
   return (
     <>
         <Floor/>
         <TheFence/>
-        <Zombie
-          position={[2,0,3]}
-        />
-        <RoadPath
-          position={[3,0,3]}
-        />
-        <Lightpost position={[2, 0, 2]} />
-        <SingleLightpost position={[-3, 0, 4]} />
+        <RoadPath/>
+        <Doorway position={[0,0,1]} />
+        <Center/>
+        <TheGravestones/>
+        <Forest/>
+        <Skeleton position={[0,0,-5]} rotation={[0,3.2,0]} />
     </>
   )
 }

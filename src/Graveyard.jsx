@@ -14,9 +14,8 @@ createRoot(document.getElementById('root')).render(
     camera={{ position: [0, 5, -18], fov: 45 }}
     style={{ background: "#171717" }}
   >
-    <ambientLight intensity={0.5} />
-    <pointLight position={[-3, 0.3, 4]} />
-    <pointLight position={[2, 0.3, 2]} />
+    <ambientLight intensity={0} />
+    
     
     
     
