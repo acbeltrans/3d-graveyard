@@ -1,6 +1,9 @@
+{
+  /* Scenery */
+}
 import { Floor } from './Scenes/Floor'
 import { TheFence } from './Scenes/TheFence'
-import { RoadPath } from './Scenes//RoadPath'
+import { RoadPath } from './Scenes/RoadPath'
 import { Doorway } from './Models/Gravestones/Doorway'
 import { Center } from './Scenes/Center'
 import { TheGravestones } from './Scenes/TheGravestones'

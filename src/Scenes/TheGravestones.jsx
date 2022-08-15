@@ -1,12 +1,9 @@
-import { Floor } from '../Scenes/Floor'
-import { RoadPath } from '../Scenes//RoadPath'
-import { Lightpost } from '../Models/Environment/Lightpost'
-import { SingleLightpost } from '../Models/Environment/SingleLightpost'
-import { TheFence } from '../Scenes/TheFence'
+{
+  /* Gravestones */
+}
 import { Gravestone } from '../Models/Gravestones/Gravestone'
 import { BrokenGravestone } from '../Models/Gravestones/BrokenGravestone'
 import { GravestoneCross } from '../Models/Gravestones/GravestoneCross'
-import { Center } from '../Scenes/Center'
 import { v4 } from 'uuid'
 
 export const TheGravestones = () => {
@@ -14,6 +11,7 @@ export const TheGravestones = () => {
   let [i, j, x, z, random] = [1, -1, 1, -1, 0]
   return (
     <>
+      {/* Left gravestones */}
       {[...Array(size)].map(() => {
         random = parseInt(Math.random() * 100)
         if (j === 5) {
@@ -50,6 +48,7 @@ export const TheGravestones = () => {
           )
         }
       })}
+      {/* Right gravestones */}
       {[...Array(size)].map(() => {
         random = parseInt(Math.random() * 100)
         if (z === 5) {

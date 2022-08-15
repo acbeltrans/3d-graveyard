@@ -1,6 +1,12 @@
+{
+  /* Floor */
+}
 import { Grass } from '../Models/Environment/Grass'
 import { v4 } from 'uuid'
 export const Floor = () => {
+  {
+    /* Matrix 10x7 */
+  }
   let size = 294
   let j = -7
   let i = -10

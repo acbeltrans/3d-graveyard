@@ -1,3 +1,6 @@
+{
+  /* Crypt Model */
+}
 import { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 

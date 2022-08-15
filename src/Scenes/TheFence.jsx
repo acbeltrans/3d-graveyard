@@ -1,3 +1,6 @@
+{
+  /* The Fence */
+}
 import { Fence } from '../Models/Fence/Fence'
 import { FenceCurve } from '../Models/Fence/FenceCurve'
 import { Gate } from '../Models/Fence/Gate'
