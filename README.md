@@ -2,6 +2,20 @@
 
 Project that uses the react-three-fiber library to render a 3D graveyard.
 
+<p align="center">
+  <section align="center">
+    <img src="https://user-images.githubusercontent.com/42388004/184724748-0597f183-ec6d-4e21-8616-9fd916c2dfbd.gif" alt="Graveyard global view gif" width=40%   />
+  </section>
+</p>
+
+
+<p align="center">
+  <section align="center">
+    <img src="https://user-images.githubusercontent.com/42388004/184720759-803e6c63-ecd9-4f83-b1b3-45bb0c3dfebc.png" alt="Graveyard global view" width=40%/>
+    <img src="https://user-images.githubusercontent.com/42388004/184721082-7d2dd457-4caa-4241-b99a-b9bbe1dd7556.png" alt="Graveyard with gravestones and a skeleton" width=40%/> 
+  </section>
+</p>
+
 ## Project Structure
 
 - /public/models: 3D graphics models in glb format.\
@@ -52,6 +66,20 @@ yarn dev
 # 3D Graveyard
 
 Proyecto en el que se usa la librería react-three-fiber para renderizar un cementerio en 3D.
+
+<p align="center">
+  <section align="center">
+    <img src="https://user-images.githubusercontent.com/42388004/184724748-0597f183-ec6d-4e21-8616-9fd916c2dfbd.gif" alt="Visión global del cementerio gif" width=40%   />
+  </section>
+</p>
+
+
+<p align="center">
+  <section align="center">
+    <img src="https://user-images.githubusercontent.com/42388004/184720759-803e6c63-ecd9-4f83-b1b3-45bb0c3dfebc.png" alt="Visión global del cementerio" width=40%/>
+    <img src="https://user-images.githubusercontent.com/42388004/184721082-7d2dd457-4caa-4241-b99a-b9bbe1dd7556.png" alt="Entrada del cementerio con un esqueleto y lápidas" width=40%/> 
+  </section>
+</p>
 
 ## Estructura del proyecto
 
