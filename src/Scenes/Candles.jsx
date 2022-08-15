@@ -14,7 +14,7 @@ export const Candles = () => {
       <Candle position={[-0.8, 0, 2.3]} /> {/* southeast candle */}
       <Candle position={[0.8, 0, 2.3]} /> {/* southwest candle */}
       <Candle position={[0.8, 0, 3.8]} /> {/* northwest candle */}
-      <Candle position={[-0.8, 1, 3.8]} /> {/* northeast candle */}
+      <Candle position={[-0.8, 0, 3.8]} /> {/* northeast candle */}
       <pointLight position={[-1, 0, 3]} intensity={0.08} />
       <pointLight position={[1, 0, 3]} intensity={0.08} />
       <pointLight position={[0, 0, 4]} intensity={0.08} />
