@@ -25,7 +25,7 @@ Project that uses the react-three-fiber library to render a 3D graveyard.
 
 ## Technologies used
 
-- React
+- React.
 - react-three-fiber: https://github.com/pmndrs/react-three-fiber
 
 ## How to run the application locally?
@@ -59,7 +59,7 @@ yarn
 yarn dev
 ```
 
-5. Finally, go to http://127.0.0.1:5173/ or the url with which it has been configured
+5. Finally, go to http://127.0.0.1:5173/ or the url with which it has been configured.
 
 ---
 
@@ -90,7 +90,7 @@ Proyecto en el que se usa la librería react-three-fiber para renderizar un ceme
 
 ## Tecnologías usadas
 
-- React
+- React.
 - react-three-fiber: https://github.com/pmndrs/react-three-fiber
 
 ## ¿Cómo correr la aplicación en local?
@@ -124,4 +124,4 @@ yarn
 yarn dev
 ```
 
-5. Por último, ingresar a http://127.0.0.1:5173/ o a la url con la que haya sido configurado
+5. Por último, ingresar a http://127.0.0.1:5173/ o a la url con la que haya sido configurado.
